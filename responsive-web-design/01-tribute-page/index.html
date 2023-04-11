@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Norah Jones | Tribute Page</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+  <!-- Template for album covers -->
+  <template>
+    <article>
+      <figure>
+        <img class="album-cover">
+        <figcaption class="album-figcaption"></figcaption>
+      </figure>
+    </article>
+  </template>
+
+	<!-- Template for album detailts -->
+	<template>
+		<article class="album-details">
+			<h2 class="album-title"></h2>
+			<figure>
+				<img class="album-cover-single">
+				<figcaption></figcaption>
+			</figure>
+			<ul class="songs"></ul>
+		</article>
+	</template>
+
+
+
+	<!-- Modal -->
+	<section id="album-modal" onclick="hideAlbumModal()"></section>
+
+
+
+
+
+
+
+
+  <main id="main">
+
+    <section id="home">
+     <h1 id="title">Norah Jones</h1>
+    </section>
+
+    <section id="bio">
+      <figure id="img-div">
+        <img src="img/bio-pic-min.jpg" alt="Norah Jones bio pciture" id="image"/>
+        <figcaption id="img-caption">Descripcion de la imagen</figcaption>
+      </figure>
+      <p id="tribute-info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae ea accusantium, a obcaecati. Aperiam aliquam, ducimus doloribus! Veniam error aut qui excepturi repellat quidem dolores voluptates debitis vel dolorum?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quibusdam vitae rem explicabo quidem accusamus impedit. Reprehenderit excepturi unde ducimus aperiam, voluptatum veritatis aspernatur sapiente iure perspiciatis quaerat! Nulla, aliquid.
+      </p>
+    </section>
+
+    <section id="discography"></section>
+
+
+    <section id="now">
+    </section>
+
+
+    <footer>
+      <a href="https://www.norahjones.com/" target="_blank" id="tribute-link"/>Norah Jones | Official site</a>
+    </footer>
+
+
+  </main>
+
+    <script src="albums.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

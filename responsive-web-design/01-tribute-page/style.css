@@ -1,0 +1,83 @@
+#img-div{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image{
+  max-width: 50%;
+}
+
+/* GENERAL RULES */
+*{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT */
+main{
+  background-color: red;
+  width: 100vw;
+}
+main section{  
+  width: 100vw;
+  height: 100vh;
+}
+
+.album-cover{
+  width: 200px;
+  height: 200px;
+}
+
+#album-modal{
+  display:none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: auto; 
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.album-title, .songs{
+  color: white;
+  font-size: 2em;´
+}
+
+
+#home{
+  background-image: url('img/cover-min.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;    
+}
+
+#bio{
+  display: flex;
+  padding: 200px 100px;
+  background-color: #aaa;
+  color: white;
+}
+
+#discography{
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#now{
+  background-color: #aaa;
+}
+
+footer{
+  background-color: black;
+}
